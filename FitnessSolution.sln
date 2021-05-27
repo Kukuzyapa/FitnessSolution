@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFitness.BL", "MyFitness.BL\MyFitness.BL.csproj", "{3DB62B97-FDBE-4D01-AD0A-037EE50A2804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFitness.CMD", "MyFitness.CMD\MyFitness.CMD.csproj", "{383D5E71-FA01-4738-95D8-7C900A55A5A5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DB62B97-FDBE-4D01-AD0A-037EE50A2804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB62B97-FDBE-4D01-AD0A-037EE50A2804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB62B97-FDBE-4D01-AD0A-037EE50A2804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB62B97-FDBE-4D01-AD0A-037EE50A2804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{383D5E71-FA01-4738-95D8-7C900A55A5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{383D5E71-FA01-4738-95D8-7C900A55A5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{383D5E71-FA01-4738-95D8-7C900A55A5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{383D5E71-FA01-4738-95D8-7C900A55A5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
